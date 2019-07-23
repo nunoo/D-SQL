@@ -1,0 +1,21 @@
+<div class="row mt-5">
+  <div class="col">
+  </div>
+  <div class="col-5">
+    <form (submit)="onClick()">
+      <div class="form-group">
+        <input type="text" class="form-control" id="url" aria-describedby="emailHelp" placeholder="Enter URL">
+      </div>
+      <button type="submit" class="btn btn-primary"  >Submit</button>
+    </form>
+  </div>
+  <div class="col">
+  </div>
+</div>
+
+<div class="results" *ngIf='results'>
+    <h4 class="text-light text-center mt-1">Results</h4>
+
+
+
+</div>
